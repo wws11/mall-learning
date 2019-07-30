@@ -10,4 +10,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @MapperScan("com.macro.mall.tiny.mbg.mapper")
 public class MyBatisConfig {
+
+    /**
+     * ElasticSearch
+     * LogStash
+     * Kibana
+     * aop
+     * spring cloud
+     *
+     */
 }

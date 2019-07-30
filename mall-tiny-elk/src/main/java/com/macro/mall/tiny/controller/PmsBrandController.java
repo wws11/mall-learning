@@ -34,6 +34,8 @@ public class PmsBrandController {
     @RequestMapping(value = "listAll", method = RequestMethod.GET)
     @ResponseBody
     public CommonResult<List<PmsBrand>> getBrandList() {
+        int i=1/0;
+        System.out.println(i);
         return CommonResult.success(brandService.listAllBrand());
     }
 

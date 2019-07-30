@@ -41,5 +41,8 @@
         <table tableName="pms_brand">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
+       <!-- <table tableName="%">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>-->
     </context>
 </generatorConfiguration>
